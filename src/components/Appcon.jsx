@@ -1,11 +1,12 @@
 import React from 'react'
+import Carosoul from './Carosoul'
 
 
 const Appcon = () => {
   return (
     <div className='Appcon'>
         <div className="slider">
-        
+        <Carosoul/>
         </div>
         <div className="apx">
             <img src=".\icons\ff.png" alt="" />
