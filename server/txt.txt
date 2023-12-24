@@ -1,0 +1,5 @@
+here
+
+create a seprate folder name server in the root directory
+
+

@@ -1,0 +1,49 @@
+.slm{
+ 
+    height: 370px;
+    object-fit: contain;
+    width: 100%;
+    color: red;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  }
+
+  .txt{
+    padding-top: 130px;
+    padding-bottom: 100%;
+    padding-left: 20px;
+    width: 100%;
+    color: #ffff;
+    border-radius: 10px;
+  background: rgb(0,0,0);
+  background: linear-gradient(90deg, rgba(0,0,0,1) 28%, rgba(186,168,168,0.08084952731092432) 77%);
+  }
+  
+  
+  .Ex{
+    width: 70cqw;
+    padding-bottom: 20px;
+    color: grey;
+  }
+  .size{
+    font-size: 25px;
+    color: rgb(0, 110, 255);
+  
+  }
+  .genre{
+    font-size: 20px;
+    color: rgb(0, 110, 255);
+  }
+  .head{
+    font-size: 60px;
+    margin-bottom: 10px;
+  }
+
+  @media only screen and (max-width: 600px) {
+    
+  .txt{
+    margin-bottom: 50px;
+  }
+  }

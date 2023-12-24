@@ -9,7 +9,7 @@ function Main() {
     <div className='Main '>
 
      
-     <Appcon/>
+     <Appcon />
     
 
     

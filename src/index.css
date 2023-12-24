@@ -21,6 +21,8 @@ code {
 
 
 
+
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -42,12 +44,6 @@ code {
 .vertical-menu a {
   color: rgb(255, 255, 255);
   text-decoration: none;
-
-
-  
-  
-  
-  
 }
 
 
@@ -122,226 +118,26 @@ code {
   background-color: rgba(51, 51, 51, 0.706);
   position: absolute;
   width: 96%;
-  height: 100%;
+  height: 110vh;
   right: 0;
   top: 8%;
   border-top-left-radius: 15px;
   overflow-y: scroll;
   display: flex;
-  
   background: rgba(63, 63, 63, 0.24);
   border-radius: 16px;
   box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(5.7px);
   -webkit-backdrop-filter: blur(4.7px);
-  
+  overflow-x: hidden;
 }
-
-.Appcon{
- display: flex;
- flex-wrap: wrap;
- width: 100%;
- position: relative;
- 
-}
-
-.apx{
-  background-color: white;
-  width: max-content;
-  height: max-content;
-  margin: 25px;
-  border-radius: 10px;
-  padding: 5px;
-  transition: ease-in-out;
-  transition: .2s;
-
-  cursor: pointer;
-}
-
-.apx:hover{
-
-  transform: scale(1.02);
-}
-
-.apx button{
-  background-color: rgb(0, 119, 255);
-  width: 100%;
-  border-radius: 2px;
-  color: white;
-}
-
-.apx img{
-  max-width: 150px;
-  border-radius: 10px;
-
-}
-
-.text{
-  display: flex;
-  color: rgb(92, 91, 91);
-  font-size: small;
-  margin-bottom: 7px;
-  justify-content: space-between;
-}
-
-.slider{
-  width: 100%;
-  height: 60%;
-  padding-right: 20px;
-  background: transparent;
-  margin: 10px;
-  border-radius: 10px;
-
-  position: relative;
-  
-  
-  
-}
-
 
 .Swipe{
  width: 100%;
-  
-  
 }
-
-
 
 /* -------------------------------------------------------------------- */
 
-.sl{
- 
-  height: 370px;
-  object-fit: contain;
-  width: 100%;
-  color: red;
-  background-image: url(./components/img/FF.jpg);
-  border-radius: 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-.sla{
-  background-image: url(./components/img/pubg.jpg);
-  height: 370px;
-  object-fit: contain;
-  width: 100%;
-  color: red;
-  border-radius: 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-.slb{
-  background-image: url(./components/img/call\ of\ duty\ black\ ops3.jpg);
-  height: 370px;
-  object-fit: contain;
-  width: 100%;
-  color: red;
-  border-radius: 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-.slc{
-  background-image: url(./components/img/fornite.jpg);
-  height: 370px;
-  object-fit: contain;
-  width: 100%;
-  color: red;
-  border-radius: 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-.sld{
-  background-image: url(./components/img/counter\ strike.jpg);
-  height: 370px;
-  object-fit: contain;
-  width: 100%;
-  color: red;
-  border-radius: 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-.sle{
-  background-image: url(./components/img/fifa.jpg);
-  height: 370px;
-  object-fit: contain;
-  width: 100%;
-  color: red;
-  border-radius: 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-.slf{
-  background-image: url(./components/img/GTA\ V\ gang.jpg);
-  height: 370px;
-  object-fit: contain;
-  width: 100%;
-  color: red;
-  border-radius: 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-.slg{
-  background-image: url(./components/img/god\ of\ war.jpg);
-  height: 370px;
-  object-fit: contain;
-  width: 100%;
-  color: red;
-  border-radius: 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-.slh{
-  background-image: url(./components/img/the\ last\ of\ us\ 2.jpg );
-  height: 370px;
-  object-fit: contain;
-  width: 100%;
-  color: red;
-  border-radius: 10px;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
-
-
-/* -------------------------------------------------------------------- */
-.txt{
-  padding-top: 130px;
-  padding-bottom: 8px;
-  padding-left: 20px;
-  width: 100%;
-  color: #ffff;
-  border-radius: 10px;
-background: rgb(0,0,0);
-background: linear-gradient(90deg, rgba(0,0,0,1) 28%, rgba(186,168,168,0.08084952731092432) 77%);
-}
-
-
-.Ex{
-  width: 70cqw;
-  padding-bottom: 20px;
-  color: grey;
-}
-.size{
-  font-size: 25px;
-  color: rgb(0, 110, 255);
-
-}
-.genre{
-  font-size: 20px;
-  color: rgb(0, 110, 255);
-}
-.head{
-  font-size: 60px;
-  margin-bottom: 10px;
-}
 
 .search{
   display: flex;
@@ -353,17 +149,11 @@ background: linear-gradient(90deg, rgba(0,0,0,1) 28%, rgba(186,168,168,0.0808495
   border: 1px solid white;
   padding-left: 10px;
   margin-top: 5px;
-  
-
   background: rgba(255, 255, 255, 0.24);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
 backdrop-filter: blur(4.7px);
 -webkit-backdrop-filter: blur(4.7px);
-
- 
-
-  
 
 }
 
@@ -414,17 +204,10 @@ backdrop-filter: blur(4.7px);
       z-index: 1;
      
   }
- 
-
 
   .search{
     display: none;
   }
-
- 
- 
-    
- 
 
   .Logoo{
 display: flex;
@@ -448,17 +231,5 @@ left: 25%;
   .slider{
     height: 350px;
   }
-.apx{
-  width: 150px;
-  height: 230px;
-}
-
-.apx img{
-  max-width: 140px;
-}
-
-.txt{
-  margin-bottom: 50px;
-}
 }
 
